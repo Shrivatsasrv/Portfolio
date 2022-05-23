@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: antiquewhite;
+    
+}
+
+.navbar{
+    
+    height:auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    background-color: rebeccapurple;
+
+}
+.navbar a{
+    color:springgreen;
+    font-size: 60px;
+    padding: 40px;
+    padding-right: 80px;
+    display: block;
+    text-decoration: none;
+    
+    
+
+}
+.navbar a:hover{
+    color: yellow;
+}
+/* ------------main  */
+
+.main{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+
+  
+}
+.submain{
+   height:700px;
+    width:50%;
+    font-size: 60px;
+    color:crimson;
+    
+   
+}
+.image{
+    height: 700px;
+    width: 600px;
+    
+    
+    border-radius: 10%;
+    margin: 30px;
+   
+    background: url("./assests/images/Shrivatsa.jpg") no-repeat center/contain;
+}
+/* ----------------------- */
+#About-me{
+    color: orangered;
+}
+#project{
+    color:springgreen;
+}
+
+#skill{
+    color:darkmagenta ;
+}
+
+#contact{
+    color:rgb(15, 136, 22);
+}
+.size{
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+p,li{
+    font-size: 40px;
+    margin-left: 90px;
+    color: skyblue;
+}
+
+
+h2{
+    font-size: 50px;
+    margin-left: 90px;
+    color:cornsilk;
+}
+
+/* -------------------- */
+.procont{
+    display: flex;
+    border: 1px solid white;
+    margin: 40px;
+    padding: 15px;
+}
+.proimg img{
+     height: 700px;
+     width: 1200px;
+     border: 1px solid blue;
+}  
+
+.protext p{
+    margin:15px;
+    padding: 10px;
+}
+
+button{
+    font-size: 40px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    
+    background-color: springgreen;
+}
+button:hover{
+    border: 3px solid white;
+}
+.btn{
+    text-decoration: none;
+    color:crimson;
+}
